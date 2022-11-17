@@ -2,9 +2,10 @@
 
 def error_concat():     #Creamos una función para detectar errores de tipo TypeError
     try:   
-        "2" + 10    #Intentamos sumar la cadena y el número
+        resultado = "2" + 10    #Intentamos sumar la cadena y el número
     except TypeError:   #Si salta un excepción de este tipo 
         return "No se puede sumar una cadena a un número"   #Decimos que no se puede sumar una cadena y un número
-
+    return resultado
+    
 if __name__ == "__main__":  #Ejecutamos el código
     print(error_concat())
