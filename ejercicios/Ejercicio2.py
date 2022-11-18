@@ -8,5 +8,8 @@ def non_list_element():    #Creamos una función para capturar la excepción que
     except IndexError:      #Capturamos el error
         return "No existe ese elemento dentro de la lista"  #Decimos que no existe ese elemento en la lista
 
-if __name__ == "__main__":  #Ejecutamos el código
+def main():     #Creamos la función main
     print(non_list_element())
+
+if __name__ == "__main__":  #Ejecutamos el código
+    main()

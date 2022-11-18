@@ -7,5 +7,8 @@ def division_por_cero():    #Creo una función donde meto el código pedido por 
         return "No se puede dividir entre 0"    #Decimos que devuelva el siguiente mensaje
     return numero
     
-if __name__ == "__main__":      #Ejecutamos el código
+def main():         #Creamos la función main
     print(division_por_cero())
+
+if __name__ == "__main__":      #Ejecutamos el código
+    main()

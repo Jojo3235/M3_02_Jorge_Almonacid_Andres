@@ -8,5 +8,8 @@ def non_dict_key():     #Creamos una función para coger el error
     except KeyError:    #Si la excepción es del tipo KeyError
         return "La clave buscada no existe"     #Decimos que la clave no existe en caso de que salte el error
 
-if __name__ == "__main__":  #Ejecutamos el código
+def main():     #Creamos la función main
     print(non_dict_key())
+
+if __name__ == "__main__":  #Ejecutamos el código
+    main()

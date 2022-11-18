@@ -7,5 +7,8 @@ def error_concat():     #Creamos una función para detectar errores de tipo Type
         return "No se puede sumar una cadena a un número"   #Decimos que no se puede sumar una cadena y un número
     return resultado
     
-if __name__ == "__main__":  #Ejecutamos el código
+def main():         #Creamos la función main
     print(error_concat())
+
+if __name__ == "__main__":  #Ejecutamos el código
+    main()
